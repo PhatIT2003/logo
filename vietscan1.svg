@@ -65,7 +65,7 @@
           filter="url(#textShadow)">Viet</text>
     
     <!-- SCAN -->
-    <text x="55" y="20" 
+    <text x="43" y="20" 
           font-family="'Inter', 'Segoe UI', 'Roboto', Arial, sans-serif" 
           font-size="22" 
           font-weight="700" 
