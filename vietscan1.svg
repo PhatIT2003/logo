@@ -5,8 +5,15 @@
  width="2048.000000pt" height="2048.000000pt" viewBox="0 0 2048.000000 2048.000000"
  preserveAspectRatio="xMidYMid meet">
 
+<defs>
+<radialGradient id="greenGradient" cx="30%" cy="20%" r="60%">
+<stop offset="0%" style="stop-color:rgba(111,185,143,0.85);stop-opacity:1" />
+<stop offset="60%" style="stop-color:rgba(255,255,255,0.2);stop-opacity:1" />
+</radialGradient>
+</defs>
+
 <g transform="translate(0.000000,2048.000000) scale(0.100000,-0.100000)"
-fill="#00AA00" stroke="none">
+fill="url(#greenGradient)" stroke="none">
 <path d="M6330 12043 c-307 -29 -487 -121 -618 -317 -26 -39 -81 -147 -121
 -241 -74 -171 -179 -407 -464 -1044 -85 -190 -158 -346 -163 -348 -9 -3 -120
 227 -239 492 -34 77 -115 255 -180 395 -64 140 -141 311 -172 379 -86 197
