@@ -82,7 +82,7 @@
           font-weight="700" 
           fill="url(#scanGradient)"
           filter="url(#textShadow)"
-          letter-spacing="1px">SCAN</text>
+          letter-spacing="1px">Scan</text>
   </g>
 
   <!-- Đường accent -->
