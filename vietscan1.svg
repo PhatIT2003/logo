@@ -87,6 +87,6 @@
 
   <!-- Đường accent -->
   <g transform="translate(48, 38)">
-    <rect x="0" y="0" width="120" height="2" fill="url(#scanGradient)" opacity="0.4" rx="1"/>
+    <rect x="0" y="0" width="115" height="2" fill="url(#scanGradient)" opacity="0.4" rx="1"/>
   </g>
 </svg>
