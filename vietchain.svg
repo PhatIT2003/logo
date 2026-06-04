@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="50" viewBox="0 0 170 50">
+  <defs>
+    <linearGradient id="vG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#1E40AF" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- V Icon -->
+  <g transform="translate(10, 7)" filter="url(#glow)">
+    <path d="M0 2 L10 34 L15 24 L20 34 L30 2 L24 2 L15 24 L6 2 Z"
+          fill="url(#vG)" stroke="none"/>
+    <path d="M6 2 L10 12 L15 24 L20 12 L24 2"
+          fill="none" stroke="#BFDBFE" stroke-width="1" stroke-opacity="0.5" stroke-linejoin="round"/>
+    <circle cx="15" cy="24" r="1.8" fill="white" opacity="0.9"/>
+  </g>
+
+  <!-- VietChain text -->
+  <g transform="translate(50, 14)" filter="url(#shadow)">
+    <text x="0" y="22"
+          font-family="'Inter', 'Segoe UI', Arial, sans-serif"
+          font-size="22" font-weight="800"
+          fill="#1E3A8A" letter-spacing="-0.5">Viet</text>
+    <text x="44" y="22"
+          font-family="'Inter', 'Segoe UI', Arial, sans-serif"
+          font-size="22" font-weight="800"
+          fill="#2563EB" letter-spacing="-0.5">Chain</text>
+  </g>
+
+  <!-- Accent line -->
+  <rect x="50" y="40" width="118" height="2" rx="1" fill="url(#vG)" opacity="0.3"/>
+</svg>
